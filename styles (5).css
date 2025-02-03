@@ -1,0 +1,116 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #add8e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/* Centered Heading Styling */
+.heading {
+  font-size: 36px; /* Adjust the size as needed */
+  font-weight: bold;
+  color: #333333;
+  text-align: center; /* Center the text */
+  margin-bottom: 20px; /* Space between the heading and the timer */
+}
+
+
+/* Timer Display Styling */
+.timer-Display {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #3e8e41;
+}
+
+/* Lap List Styling */
+.laps {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.laps li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 4px;
+  color: #333;
+}
+
+.laps li:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+.laps li:nth-child(even) {
+  background-color: #e9e9e9;
+}
+
+/* Clear Lap Button */
+.clear-laps-btn {
+  background-color: #ff4747;
+  font-size: 16px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.clear-laps-btn:hover {
+  background-color: #e63e3e;
+}
+
+.clear-laps-btn:active {
+  background-color: #c63131;
+}
+
+/* Layout for buttons */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
